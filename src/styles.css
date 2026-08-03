@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap');
 
+html,
+:root {
+    color-scheme: only light;
+}
+
 :root{
   color-scheme:dark; font-family:Inter,system-ui,sans-serif; color:#edf1f3; background:#07090d;
   --lime:#b9ff4d; --muted:#8b929d; --line:rgba(255,255,255,.1); --panel:#101319;
