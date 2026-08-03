@@ -123,7 +123,9 @@ export default function App() {
           </div>
           <div className="world-map">
             <div className="map-ring r1"/><div className="map-ring r2"/><div className="map-ring r3"/>
-            <div className="map-route route-a"/><div className="map-route route-b"/>
+            <div className="map-route route-a"/>
+<div className="map-route route-b"/>
+<div className="map-route route-c"/>
             <div className="map-node n1"><span>01</span> AIRPORT</div>
             <div className="map-node n2"><span>02</span> CITY</div>
             <div className="map-node n3"><span>03</span> PORT</div>
