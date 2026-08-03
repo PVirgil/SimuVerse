@@ -198,10 +198,19 @@ footer{height:110px;padding:0 6vw;display:flex;align-items:center;justify-conten
   top-right corner of 03 -> bottom-right corner of SV
 */
 .route-c {
-    left: 53.75%;
-    top: 87.2917%;
-    width: 30.4167%;
-    transform: rotate(-83.7deg);
+    /* Center of the SV box */
+    left: 50%;
+
+    /* Bottom edge of the SV box */
+    top: calc(50% + 34px);
+
+    /* Distance from SV bottom to 03 top */
+    width: calc(87.2917% - 50% - 34px);
+
+    /* Point straight down */
+    transform: rotate(90deg);
+
+    transform-origin: 0 50%;
 }
 
 @media(max-width:1000px){.nav nav{display:none}.hero-vehicle{opacity:.42;right:-80px}.hero-copy{width:70vw}.sim-grid{grid-template-columns:repeat(2,1fr)}.world-section{gap:30px}.world-map{width:390px;height:390px}.world-copy{width:50%}}
